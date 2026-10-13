@@ -1,0 +1,16 @@
+## Interface: 16001
+## Title: Ope, Bag's Full
+## Notes: Bags full? Combine stacks and get rid of the cheapest junk first, one click at a time. Sells junk at vendors.
+## Author: Travis Neiderhiser
+## Version: @project-version@
+## Category: Inventory
+## SavedVariables: OpeBagsFullDB
+## IconTexture: Interface\Icons\INV_Misc_Bag_10
+## AddonCompartmentFunc: OpeBagsFull_OnAddonCompartmentClick
+## OptionalDeps: StashOrTrash
+
+Core.lua
+Bags.lua
+Actions.lua
+UI.lua
+Options.lua

@@ -1,0 +1,11 @@
+<Bindings>
+	<Binding name="OPEBAGSFULL_TRASHNEXT" header="OPEBAGSFULL" category="ADDONS">
+		OpeBagsFull_TrashNext()
+	</Binding>
+	<Binding name="OPEBAGSFULL_MAKEROOM" category="ADDONS">
+		OpeBagsFull_MakeRoom()
+	</Binding>
+	<Binding name="OPEBAGSFULL_TOGGLE" category="ADDONS">
+		OpeBagsFull_TogglePanel()
+	</Binding>
+</Bindings>
