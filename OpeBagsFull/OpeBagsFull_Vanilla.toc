@@ -5,6 +5,7 @@
 ## Version: @project-version@
 ## Category: Inventory
 ## X-Curse-Project-ID: 1743312
+## X-Wago-ID: b6mzQnKP
 ## SavedVariables: OpeBagsFullDB
 ## IconTexture: Interface\Icons\INV_Misc_Bag_10
 ## AddonCompartmentFunc: OpeBagsFull_OnAddonCompartmentClick
