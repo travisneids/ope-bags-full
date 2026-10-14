@@ -1,11 +1,11 @@
 local addonName, ns = ...
 
--- Ope, Bag's Full: frees bag space by combining stacks and getting rid of the
+-- Ope! Bag's Full: frees bag space by combining stacks and getting rid of the
 -- lowest-value junk first. Shared helpers, saved variables and events.
 
 _G.OpeBagsFull = ns
 ns.addonName = addonName
-ns.TITLE = "Ope, Bag's Full"
+ns.TITLE = "Ope! Bag's Full"
 ns.ICON = "Interface\\Icons\\INV_Misc_Bag_10"
 
 ns.defaults = {

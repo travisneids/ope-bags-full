@@ -1,4 +1,4 @@
--- Minimal WoW client mock for Ope, Bag's Full: bags, the cursor, a vendor,
+-- Minimal WoW client mock for Ope! Bag's Full: bags, the cursor, a vendor,
 -- frames, settings and timers. It enforces Blizzard's rule that
 -- DeleteCursorItem needs a hardware event and deletes only one item per event.
 

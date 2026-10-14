@@ -1,5 +1,5 @@
 ## Interface: 11509
-## Title: Ope, Bag's Full
+## Title: Ope! Bag's Full
 ## Notes: Bags full? Combine stacks and get rid of the cheapest junk first, one click at a time. Sells junk at vendors.
 ## Author: Travis Neiderhiser
 ## Version: @project-version@

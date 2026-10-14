@@ -1,4 +1,4 @@
-# Ope, Bag's Full
+# Ope! Bag's Full
 
 A **World of Warcraft: Forever** and **Classic Era / Hardcore** addon for the
 moment your bags fill up mid-quest. It combines partial stacks, then gets rid
@@ -6,7 +6,7 @@ of the **cheapest junk first**, one click at a time, until you have the room
 you asked for. At a vendor it sells instead.
 
 ```
-Ope, Bag's Full                    Goal [-] 5 [+]
+Ope! Bag's Full                    Goal [-] 5 [+]
 Free slots: 2
 Combining stacks frees 1, then trash 2 (27c of vendor value).
   [Torn Wing]            12c   [Keep]
@@ -28,7 +28,7 @@ Combining stacks frees 1, then trash 2 (27c of vendor value).
   an item for good. `/ope junk <item>` makes an item always count as junk.
 - **Sells junk at vendors** automatically (gray items and your junk list only).
   At a vendor, Make room and Trash sell instead of deleting.
-- **"Ope, bag's full!"**: when you loot with full bags it plays a sound, names
+- **"Ope! Bag's full!"**: when you loot with full bags it plays a sound, names
   the cheapest item to trash and opens the panel. It also warns you when you're
   down to your last few slots.
 - **Works with Stash or Trash**: if you also use
@@ -44,7 +44,7 @@ never from a timer or event), so Ope can't wipe five items at once. Instead:
 
 - click **Make room** / **Trash next** in the panel once per item,
 - **Shift-click** the **Ope** icon beside your backpack,
-- bind a key under **Options → Keybindings → AddOns → Ope, Bag's Full →
+- bind a key under **Options → Keybindings → AddOns → Ope! Bag's Full →
   Trash the cheapest item** and tap it, or
 - put `/ope trash` in a macro.
 
@@ -79,7 +79,7 @@ cp -r OpeBagsFull "/mnt/c/Program Files (x86)/World of Warcraft/_classic_era_/In
   Shift-click to trash the cheapest item, right-click for options. (Bag
   replacement addons like Bagnon hide the default backpack; use the key
   binding, `/ope` or the minimap addon menu instead.)
-- Options: **Esc → Options → AddOns → Ope, Bag's Full**.
+- Options: **Esc → Options → AddOns → Ope! Bag's Full**.
 
 | Command | Does |
 | --- | --- |

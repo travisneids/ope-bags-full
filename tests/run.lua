@@ -1,4 +1,4 @@
--- Ope, Bag's Full test suite. Runs on plain Lua 5.1 (the WoW client's version):
+-- Ope! Bag's Full test suite. Runs on plain Lua 5.1 (the WoW client's version):
 --   lua5.1 tests/run.lua            (from the repository root)
 -- or, without a system Lua: python3 tests/run_tests.py
 
@@ -127,7 +127,7 @@ test("addon loads every .toc file and registers settings, slash command and bind
 	local ns, files = Boot()
 	eq(#files, 5, "toc file count")
 	ok(Mock.settings.registered, "settings category registered")
-	eq(Mock.settings.registered.name, "Ope, Bag's Full")
+	eq(Mock.settings.registered.name, "Ope! Bag's Full")
 	ok(SlashCmdList.OPEBAGSFULL, "slash command registered")
 	eq(SLASH_OPEBAGSFULL1, "/ope")
 	ok(type(OpeBagsFull_OnAddonCompartmentClick) == "function", "addon compartment handler")
@@ -561,7 +561,7 @@ test("looting with full bags: alert names the cheapest item and opens the panel"
 	Mock.state.bindings.OPEBAGSFULL_TRASHNEXT = "CTRL-T"
 	Mock.Fire("UI_ERROR_MESSAGE", 3, ERR_INV_FULL)
 	local out = Mock.Output()
-	contains(out, "Ope, bag's full!")
+	contains(out, "Ope! Bag's full!")
 	contains(out, "Torn Wing")
 	contains(out, "press CTRL-T")
 	eq(#Mock.state.sounds, 1)
@@ -573,7 +573,7 @@ test("looting with full bags: alert names the cheapest item and opens the panel"
 	eq(Mock.Output(), "", "not repeated right away")
 	Mock.state.time = Mock.state.time + 10
 	Mock.Fire("UI_ERROR_MESSAGE", 3, ERR_INV_FULL)
-	contains(Mock.Output(), "Ope, bag's full!")
+	contains(Mock.Output(), "Ope! Bag's full!")
 end)
 
 test("the bag-full alert can be turned off and ignores other errors", function()

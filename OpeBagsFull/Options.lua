@@ -1,7 +1,7 @@
 local _, ns = ...
 
 ---------------------------------------------------------------------------
--- Settings panel (Esc > Options > AddOns > Ope, Bag's Full)
+-- Settings panel (Esc > Options > AddOns > Ope! Bag's Full)
 ---------------------------------------------------------------------------
 
 local function SectionHeader(layout, text)

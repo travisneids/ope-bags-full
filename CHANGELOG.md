@@ -2,7 +2,8 @@
 
 ## v0.1.1
 
-- First release on Wago Addons. No changes in game since v0.1.0.
+- First release on Wago Addons.
+- The addon is now called "Ope! Bag's Full".
 
 ## v0.1.0
 

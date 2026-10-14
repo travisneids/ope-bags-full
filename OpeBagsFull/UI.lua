@@ -424,9 +424,9 @@ function ns.OnBagFull()
 	lastAlert = GetTime()
 	local next = ns.Candidates()[1]
 	if next then
-		ns.Print("Ope, bag's full! Cheapest to go: " .. ns.ItemLabel(next) .. " (" .. ns.FormatMoney(next.value) .. ") - " .. KeyHint() .. ".")
+		ns.Print("Ope! Bag's full! Cheapest to go: " .. ns.ItemLabel(next) .. " (" .. ns.FormatMoney(next.value) .. ") - " .. KeyHint() .. ".")
 	else
-		ns.Print("Ope, bag's full! Nothing is safe to trash with your settings; see /ope.")
+		ns.Print("Ope! Bag's full! Nothing is safe to trash with your settings; see /ope.")
 	end
 	if PlaySound and SOUNDKIT and SOUNDKIT.RAID_WARNING then
 		PlaySound(SOUNDKIT.RAID_WARNING)
